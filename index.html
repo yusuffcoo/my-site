@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>kafe</title>
+    <link rel ="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://t4.ftcdn.net/jpg/02/50/86/69/240_F_250866913_Ypugnu1Lal5rfIevOSkwyHaK8WoPItuh.jpg"width="1250"height="200">
+    <h1 id="colorChange">YKY Kafe!</h1>
+
+    <script>
+        // Renk değişim fonksiyonu
+        let colors = ['red', 'green', 'yellow']; // Kullanacağımız renkler
+        let currentColorIndex = 0; // Başlangıç rengi indexi
+
+        function changeColor() {
+            // H1 elementini seç
+            let h1Element = document.getElementById('colorChange');
+            
+            // Şu anki rengi ayarla
+            h1Element.style.color = colors[currentColorIndex];
+            
+            // Renk indexini arttır (3 renk olduğu için 0'dan başlıyoruz)
+            currentColorIndex = (currentColorIndex + 1) % colors.length;
+        }
+
+        // Renk değişimini her 1 saniyede bir yap
+        setInterval(changeColor, 1000);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+
+        /* H1 elementinin başlangıç stilini belirleyelim */
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            transition: color 1s ease; /* Renk geçişinin yumuşak olmasını sağlıyoruz */
+        }
+    </style>
+
+    
+   
+    <h3>Merhaba. Kahve fiyatlarımız aşağıdadır.</h2>
+    <p >espıresso 30 tl</p>
+    <img class="img" src="https://www.tasocakfirin.com/image/cache/catalog/products_2021/Coffee-Latte-1000x1000.jpg" width="200" height="200">
+    <p>amerikan 15 tl</p>
+    <img class="img" src="https://coffeeheadblog.wordpress.com/wp-content/uploads/2014/09/coffeecup-splash-1000x1000.jpg" width="200" height="200">
+    <p>filter 100 tl</p>,
+    <img class="img" src="https://www.tasocakfirin.com/image/cache/catalog/products_2021/Coffee-Latte-1000x1000.jpg" width="200" height="200">
+    <p>Amerikan espress filtre kafe 1230 tl</p>
+    <img class="img" src="https://coffeeheadblog.wordpress.com/wp-content/uploads/2014/09/coffeecup-splash-1000x1000.jpg" width="200" height="200">
+    <a href="https://youtube.com/">tıkla internet sitemiz😎</a><br>
+    
+    
+    
+    
+
+</html>
