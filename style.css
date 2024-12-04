@@ -1,7 +1,13 @@
-p{
+.p{
     border: solid  ;
 }
 .img{
     border: solid;
     border-radius:  50px;
+}
+.buttonpage{
+    font-size: 50px;
+    border: solid;
+    border-radius: 5px;
+    
 }
