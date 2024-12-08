@@ -1,5 +1,5 @@
 .p{
-    border: solid  ;
+    font-size: 20px;
 }
 .img{
     border: solid;
@@ -58,3 +58,26 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+
+
+.imagebutton {
+    transition: transform 0.3s ease; /* Geçiş animasyonu ekleniyor */
+    border-radius: 25px;
+  }
+  
+  /* Fareyle üzerine gelindiğinde img öğesinin %5 büyümesi */
+  .imagebutton:hover {
+    transform: scale(1.05); /* Öğeyi %5 büyüt */
+  }
+  .hakkimizda{
+    font-family: 'Brush Script MT', cursive;
+  }
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
